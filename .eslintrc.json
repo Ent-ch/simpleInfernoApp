@@ -1,0 +1,25 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": [
+        "nrk",
+        "eslint:recommended",
+        "plugin:inferno/recommended"
+    ],
+    "plugins": [
+        "inferno"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "comma-dangle": "off",
+        "inferno/prop-types": "off",
+        "inferno/display-name": "off",
+        "no-undef": "off"
+    }
+}

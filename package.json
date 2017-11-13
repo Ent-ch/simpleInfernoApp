@@ -1,0 +1,30 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "daemonite-material": "^4.0.0-beta",
+    "inferno": "^3.10.1",
+    "inferno-bootstrap": "^0.2.7",
+    "inferno-component": "^3.10.1",
+    "inferno-scripts": "5.0.0"
+  },
+  "scripts": {
+    "start": "inferno-scripts start",
+    "build": "inferno-scripts build",
+    "test": "inferno-scripts test --env=jsdom",
+    "eject": "inferno-scripts eject"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-nodejs-recommended": "^2.1.2",
+    "eslint-config-nrk": "^5.0.3-beta.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-inferno": "^6.9.2",
+    "eslint-plugin-lodash": "^2.5.0"
+  }
+}
