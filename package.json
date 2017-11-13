@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
-    "daemonite-material": "^4.0.0-beta",
     "inferno": "^3.10.1",
     "inferno-bootstrap": "^0.2.7",
     "inferno-component": "^3.10.1",

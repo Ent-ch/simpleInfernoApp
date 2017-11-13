@@ -1,11 +1,5 @@
-import Alert from 'inferno-bootstrap/dist/Alert';
-
 export default ({ width, height }) => {
   return (
-    <div>
-      <Alert color="success">
-        Some cool text in a <b>success</b> alert box!
-      </Alert>
       <svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
@@ -25,6 +19,5 @@ export default ({ width, height }) => {
           />
         </g>
       </svg>
-    </div>
   );
 };
